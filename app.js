@@ -1,7 +1,7 @@
 const http = require('http');
 
 const port = process.env.PORT || 8080;
-const customMessage = " Welcome to My Node.js App!";
+const customMessage = "My Node.js App!";
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
