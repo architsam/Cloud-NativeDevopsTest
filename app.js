@@ -1,7 +1,7 @@
 const http = require('http');
 
 const port = process.env.PORT || 8080;
-const customMessage = "Hello we are batch1 Group 2 and this is our first cicd deployment";
+const customMessage = "Hello we are ";
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end(`<h1>Hello, World!</h1><p>${customMessage}</p>`);
